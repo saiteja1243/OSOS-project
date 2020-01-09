@@ -7,8 +7,9 @@ phases:
   build:
    commands:
      - echo Building the Json code...
+      - npm run test
       - package.json
       - basic_server 
       - user.js
       - package-lock.json
-      - npm run test
+      
