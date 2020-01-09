@@ -1,4 +1,4 @@
-var mongoose=require('mongoose')
+ar mongoose=require('mongoose')
 
 var User = new mongoose.Schema({
     name:{
