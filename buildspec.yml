@@ -4,4 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto8
-
+  build:
+   commands:
+     - echo
+$CODEBUILD_RESOLVED_SOURCE_VERSION
