@@ -6,7 +6,5 @@ phases:
       java: corretto8
   build:
     commands:
-      - ./gradlew assembleDebug
-artifacts:
-  files:
-    - app/build/outputs/apk/app-debug.apk
+            - git archive --format=zip HEAD > application.zip
+
