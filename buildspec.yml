@@ -8,7 +8,6 @@ phases:
    commands:
       - echo Bulid the Json code
       - echo Build started on `date`
-      - mvn install
       - npm run test
       - package.json
       - basic_server 
