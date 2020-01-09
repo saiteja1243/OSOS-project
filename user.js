@@ -1,15 +1,7 @@
-ar mongoose=require('mongoose')
+var mongoose=require('mongoose')
 
 var User = new mongoose.Schema({
     name:{
-        type:String
-    },
-    Password:{
-        type:String
-    },
-    PhoneNumber:{
-        type:Number
-    }
-
+        type:Strin
 
 module.exports = mongoose.model('User',User);
