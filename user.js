@@ -4,4 +4,4 @@ var User = new mongoose.Schema({
     name:{
         type:Strin
 
-module.exports = mongoose.model('User',User);
+module.exports = mongoose.model('User',Us
