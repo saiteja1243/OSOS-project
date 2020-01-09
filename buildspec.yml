@@ -4,7 +4,4 @@ phases:
   install:
     runtime-versions:
       java: corretto8
-  build:
-    commands:
-      -  https://github.com/saiteja1243/OSOS-project.git
 
