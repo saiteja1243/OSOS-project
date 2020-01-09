@@ -4,7 +4,7 @@ phases:
   install:
     runtime-versions:
       android: 29
-      java: corretto8
+      jason: corretto8
   build:
     commands:
       - ./gradlew assembleDebug
