@@ -8,7 +8,7 @@ phases:
    commands:
       - echo Bulid the Json code
       - echo Build started on `date`
-      - npm run test
+      - npm run build
       - package.json
       - basic_server 
       - user.js
