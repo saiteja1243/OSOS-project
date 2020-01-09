@@ -3,8 +3,13 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto8
+      nodejs: 10
   build:
    commands:
-     - echo
-$CODEBUILD_RESOLVED_SOURCE_VERSION
+     - echo Building the Json code...
+      - cd $CODEBUILD_SRC_DIR/package.json
+      - go build basic_server 
+      - echo Building the Json code...
+      - cd $CODEBUILD_SRC_DIR/user.js
+      - cd $CODEBUILD_SCR_DIR/package-lock.json
+      - npm run test
