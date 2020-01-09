@@ -10,7 +10,6 @@ var User = new mongoose.Schema({
     PhoneNumber:{
         type:Number
     }
-})
 
 
 module.exports = mongoose.model('User',User);
