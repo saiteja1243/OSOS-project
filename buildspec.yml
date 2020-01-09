@@ -3,5 +3,5 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      json: corretto8
+      java: corretto8
 
