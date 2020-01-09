@@ -6,8 +6,6 @@ phases:
       nodejs: 10
   build:
    commands:
-     build:
-    commands:
       - echo Bulid the Json code
       - echo Build started on `date`
       - mvn install
