@@ -8,7 +8,7 @@ phases:
    commands:
      build:
     commands:
-      - echo Entered the Json code
+      - echo Bulid the Json code
       - echo Build started on `date`
       - mvn install
       - npm run test
