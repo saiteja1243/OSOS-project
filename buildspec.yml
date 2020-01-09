@@ -6,5 +6,5 @@ phases:
       java: corretto8
   build:
     commands:
-            - git archive --format=zip HEAD > application.zip
+      -  https://github.com/saiteja1243/OSOS-project.git
 
